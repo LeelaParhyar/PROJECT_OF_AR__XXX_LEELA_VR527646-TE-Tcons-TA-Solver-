@@ -1,4 +1,4 @@
-# IMPLEMENTATION OF A SOLVER FOR THE UNION OF THE THEORIES OF EQUALITY, LISTS, AND ARRAYS
+# Implementation of a Solver for the Union of the Theories of Equality, Lists, and Arrays
 
 ## Course
 
@@ -10,9 +10,9 @@ University of Verona
 
 This project implements a prototype solver for determining the satisfiability of conjunctions of literals in the quantifier-free union of the following theories:
 
-- **TE** – Theory of equality with free (uninterpreted) symbols
-- **Tcons** – Theory of non-empty, possibly cyclic lists
-- **TA** – Theory of arrays without extensionality
+- **TE** : Theory of equality with free (uninterpreted) symbols
+- **Tcons** : Theory of non-empty, possibly cyclic lists
+- **TA** : Theory of arrays without extensionality
 
 The solver is designed to handle mixed inputs, where literals from different theories appear together in the same problem. Rather than using a general-purpose theory combination framework (e.g., Nelson–Oppen), the solver follows the theory-specific reduction procedures presented in class:
 
