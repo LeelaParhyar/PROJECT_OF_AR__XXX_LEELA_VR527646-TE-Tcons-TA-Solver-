@@ -134,3 +134,7 @@ Each input file contains a comment stating the source of the problem, as require
 - Adapted academic examples for lists and arrays
 
 Each source is explicitly documented in the corresponding input file.
+
+##Conclusion
+
+In this work, a solver for the quantifier-free union of the theories of equality, lists, and arrays has been implemented. The solver follows the theory-specific reduction strategies introduced in the course and relies on congruence closure to decide satisfiability of conjunctions of literals. The implementation meets the project requirements and demonstrates the practical application of the theoretical concepts discussed in class.
