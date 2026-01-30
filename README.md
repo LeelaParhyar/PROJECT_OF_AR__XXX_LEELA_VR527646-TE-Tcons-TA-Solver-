@@ -89,8 +89,8 @@ java Main inputs/Test_TE_01.txt
 
 The solver prints one of the following to standard output:
 
-- **SAT** — the input set of literals is satisfiable
-- **UNSAT** — the input set of literals is unsatisfiable
+- **SAT**  : The input set of literals is satisfiable
+- **UNSAT** : The input set of literals is unsatisfiable
 
 ## Input Format
 
